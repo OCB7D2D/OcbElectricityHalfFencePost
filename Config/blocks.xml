@@ -1,0 +1,55 @@
+<configs>
+
+	<set xpath="/blocks/block[@name='electricfencepost']/property[@name='Material']/@value">MmetalNoGlue</set>
+
+	<set xpath="/blocks/block[@name='electricfencepost']/@name">electricfencepostlarge</set>
+
+	<append xpath="/blocks/block[@name='electricfencepostlarge']">
+		<!-- Just works if repective code is loaded -->
+		<!-- Some of my other mods enable this feature -->
+		<property name="ReturnVariantHelper" value="electricfencepost"/>
+		<property name="DescriptionKey" value="electricfencepostDesc"/>
+		<property name="CustomIcon" value="electricfencepost"/>
+		<property name="CreativeMode" value="Dev"/>
+	</append>
+
+	<append xpath="/blocks">
+
+		<block name="electricfencepostsmall_mid">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="electricfencepostlarge" param1="MultiBlockDim,Model,CreativeMode" />
+			<property name="Model" value="#@modfolder:Resources/FenceHalfPost.unity3d?HalfPostMid"/>
+			<property name="ReturnVariantHelper" value="electricfencepost"/>
+			<property name="DescriptionKey" value="electricfencepostDesc"/>
+			<property name="CustomIcon" value="HalfFencePostMid"/>
+			<property name="StabilitySupport" value="true"/>
+		</block>
+
+		<block name="electricfencepostsmall_low">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="electricfencepostsmall_mid" param1="WireOffset,Model" />
+			<property name="Model" value="#@modfolder:Resources/FenceHalfPost.unity3d?HalfPostLow"/>
+			<property name="CustomIcon" value="HalfFencePostLow"/>
+		</block>
+
+		<block name="electricfencepostsmall_top">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="electricfencepostsmall_mid" param1="WireOffset,Model" />
+			<property name="Model" value="#@modfolder:Resources/FenceHalfPost.unity3d?HalfPostTop"/>
+			<property name="CustomIcon" value="HalfFencePostTop"/>
+		</block>
+
+		<block name="electricfencepost">
+			<property name="Extends" value="electricfencepostlarge" param1="CreativeMode"/>
+			<property name="DescriptionKey" value="electricfencepostDesc"/>
+			<property name="CustomIcon" value="electricfencepost"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="all_blocks"/>
+			<property name="SelectAlternates" value="true"/>
+			<property name="PlaceAltBlockValue" value="electricfencepost,electricfencepostsmall_top,electricfencepostsmall_mid,electricfencepostsmall_low"/>
+			<property name="FilterTags" value="MC_playerBlocks,SC_playerHelpers"/>
+		</block>
+
+	</append>
+
+</configs>
