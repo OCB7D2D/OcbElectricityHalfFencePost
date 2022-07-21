@@ -2,9 +2,9 @@
 <xml>
 	<ModInfo>
 		<Name value="ElectricityHalfFencePost" />
-		<Description value="Add a fence post with only 1 block height" />
+		<Description value="Adds a stackable electric fence post (1 block tall) with different wire heights" />
 		<Website value="https://github.com/OCB7D2D/ElectricityHalfFencePost" />
 		<Author value="ocbMaurice" />
-		<Version value="0.2.0" compat="A20"/>
+		<Version value="0.2.1" compat="A20"/>
 	</ModInfo>
 </xml>

@@ -27,16 +27,25 @@
 
 		<block name="electricfencepostsmall_low">
 			<property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="electricfencepostsmall_mid" param1="WireOffset,Model" />
+			<property name="Extends" value="electricfencepostsmall_mid" param1="Model" />
 			<property name="Model" value="#@modfolder:Resources/FenceHalfPost.unity3d?HalfPostLow"/>
 			<property name="CustomIcon" value="HalfFencePostLow"/>
 		</block>
 
 		<block name="electricfencepostsmall_top">
 			<property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="electricfencepostsmall_mid" param1="WireOffset,Model" />
+			<property name="Extends" value="electricfencepostsmall_mid" param1="Model" />
 			<property name="Model" value="#@modfolder:Resources/FenceHalfPost.unity3d?HalfPostTop"/>
 			<property name="CustomIcon" value="HalfFencePostTop"/>
+		</block>
+
+		<block name="electricfencepostrelay">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Extends" value="electricfencepostsmall_mid" param1="Model" />
+			<property name="Model" value="Entities/Electrical/relayPrefab"/>
+			<property name="TintColor" value="FFF000"/>
+			<property name="CustomIcon" value="ShockWireRelay"/>
+			<property name="StabilitySupport" value="false"/>
 		</block>
 
 		<block name="electricfencepost">
@@ -46,7 +55,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="ItemTypeIcon" value="all_blocks"/>
 			<property name="SelectAlternates" value="true"/>
-			<property name="PlaceAltBlockValue" value="electricfencepost,electricfencepostsmall_top,electricfencepostsmall_mid,electricfencepostsmall_low"/>
+			<property name="PlaceAltBlockValue" value="electricfencepost,electricfencepostsmall_top,electricfencepostsmall_mid,electricfencepostsmall_low,electricfencepostrelay"/>
 			<property name="FilterTags" value="MC_playerBlocks,SC_playerHelpers"/>
 		</block>
 
