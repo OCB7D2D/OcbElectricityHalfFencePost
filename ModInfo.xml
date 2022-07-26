@@ -5,6 +5,6 @@
 		<Description value="Adds a stackable electric fence post (1 block tall) with different wire heights" />
 		<Website value="https://github.com/OCB7D2D/ElectricityHalfFencePost" />
 		<Author value="ocbMaurice" />
-		<Version value="0.2.1" compat="A20"/>
+		<Version value="0.2.2" compat="A20"/>
 	</ModInfo>
 </xml>

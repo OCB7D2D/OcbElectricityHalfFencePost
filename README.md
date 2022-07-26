@@ -39,6 +39,10 @@ Simply [download here from GitHub][1] and put into your A20 Mods folder:
 
 ## Changelog
 
+### Version 0.2.2
+
+- Add automated translations for 27 languages via DeepL
+
 ### Version 0.2.1
 
 - New variant reusing vanilla power relay
