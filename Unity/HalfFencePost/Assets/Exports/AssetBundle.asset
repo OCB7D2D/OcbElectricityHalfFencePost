@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9aafab5ec24e3a468cbf65f5c7e23b0, type: 3}
+  m_Name: AssetBundle
+  m_EditorClassIdentifier: 
+  Path: ..\..\..\Resources\FenceHalfPost.unity3d
+  IncludeAssetsFromFolders: 0
+  SearchFoldersRecursively: 0
+  CreateDeterministicAssetBundle: 1
+  AppendHashToAssetBundleName: 1
+  Compression: 1
+  VerboseLogging: 0
+  Objects:
+  - {fileID: 1701530351413802900, guid: e9da3f88600db77458ccdfd7249d8c22, type: 3}
+  - {fileID: 5701024111901825393, guid: b6d730616efed5841997285ae97d4f21, type: 3}
+  - {fileID: 4285053551505608556, guid: d17c4c75a8425334ca22c3c558404c9e, type: 3}

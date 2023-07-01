@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-	<ModInfo>
-		<Name value="ElectricityHalfFencePost" />
-		<Description value="Adds a stackable electric fence post (1 block tall) with different wire heights" />
-		<Website value="https://github.com/OCB7D2D/ElectricityHalfFencePost" />
-		<Author value="ocbMaurice" />
-		<Version value="0.2.1" compat="A20"/>
-	</ModInfo>
+	<Name value="OcbElectricityHalfFencePost" />
+	<DisplayName value="OCB Electricity Half Fence Post" />
+	<Description value="Adds a stackable electric fence post (1 block tall) with different wire heights" />
+	<Website value="https://github.com/OCB7D2D/ElectricityHalfFencePost" />
+	<Author value="ocbMaurice" />
+	<Version value="0.4.0" />
 </xml>

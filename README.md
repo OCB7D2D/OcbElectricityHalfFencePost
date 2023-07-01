@@ -39,6 +39,10 @@ Simply [download here from GitHub][1] and put into your A20 Mods folder:
 
 ## Changelog
 
+### Version 0.4.0
+
+- Update compatibility for 7D2D A21.0(b324)
+
 ### Version 0.2.1
 
 - New variant reusing vanilla power relay
@@ -49,7 +53,7 @@ Simply [download here from GitHub][1] and put into your A20 Mods folder:
 
 ## Compatibility
 
-I've developed and tested this Mod against version a20.b5.
+Developed initially for version A20.0(b5), updated through A21.0(b324).
 
 [1]: https://github.com/OCB7D2D/ElectricityHalfFencePost/releases
 [2]: https://github.com/OCB7D2D/ElectricityHalfFencePost/actions/workflows/ci.yml
