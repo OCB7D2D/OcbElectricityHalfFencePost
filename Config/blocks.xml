@@ -1,5 +1,4 @@
 <configs>
-
 	<set xpath="/blocks/block[@name='electricfencepost']/property[@name='Material']/@value">MmetalNoGlue</set>
 
 	<set xpath="/blocks/block[@name='electricfencepost']/@name">electricfencepostlarge</set>
@@ -14,10 +13,9 @@
 	</append>
 
 	<append xpath="/blocks">
-
 		<block name="electricfencepostsmall_mid">
 			<property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="electricfencepostlarge" param1="MultiBlockDim,Model,CreativeMode" />
+			<property name="Extends" value="electricfencepostlarge" param1="MultiBlockDim,Model,CreativeMode"/>
 			<property name="Model" value="#@modfolder:Resources/FenceHalfPost.unity3d?HalfPostMid"/>
 			<property name="ReturnVariantHelper" value="electricfencepost"/>
 			<property name="DescriptionKey" value="electricfencepostDesc"/>
@@ -27,21 +25,21 @@
 
 		<block name="electricfencepostsmall_low">
 			<property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="electricfencepostsmall_mid" param1="Model" />
+			<property name="Extends" value="electricfencepostsmall_mid" param1="Model"/>
 			<property name="Model" value="#@modfolder:Resources/FenceHalfPost.unity3d?HalfPostLow"/>
 			<property name="CustomIcon" value="HalfFencePostLow"/>
 		</block>
 
 		<block name="electricfencepostsmall_top">
 			<property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="electricfencepostsmall_mid" param1="Model" />
+			<property name="Extends" value="electricfencepostsmall_mid" param1="Model"/>
 			<property name="Model" value="#@modfolder:Resources/FenceHalfPost.unity3d?HalfPostTop"/>
 			<property name="CustomIcon" value="HalfFencePostTop"/>
 		</block>
 
 		<block name="electricfencepostrelay">
 			<property name="CreativeMode" value="Dev"/>
-			<property name="Extends" value="electricfencepostsmall_mid" param1="Model" />
+			<property name="Extends" value="electricfencepostsmall_mid" param1="Model"/>
 			<property name="Model" value="Entities/Electrical/relayPrefab"/>
 			<property name="TintColor" value="FFF000"/>
 			<property name="CustomIcon" value="ShockWireRelay"/>
@@ -58,7 +56,5 @@
 			<property name="PlaceAltBlockValue" value="electricfencepost,electricfencepostsmall_top,electricfencepostsmall_mid,electricfencepostsmall_low,electricfencepostrelay"/>
 			<property name="FilterTags" value="MC_playerBlocks,SC_playerHelpers"/>
 		</block>
-
 	</append>
-
 </configs>

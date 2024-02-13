@@ -25,19 +25,28 @@ well and right (like attaching posts horizontally to walls or rebars).
 Once you pick up a block you will get the actual variant back instead
 of the generic helper block. I already fixed this issue in another mod,
 but this would make this mod EAC incompatible. If you don't mind disabling
-EAC, you may just install [OCB Remote Turret Control][4] ([Nexus][5])
-too, in order to also profit from that fix.
+EAC, you may additionally install [OCB Multiway Switch Buttons][6] ([Nexus][7])
+or [OCB Remote Turret Control][4] ([Nexus][5]) too, in order to also profit
+from that fix. Some of my other Non-EAC electricity mods include that fix
+too, but I'm too lazy to keep an up to date list here ;-)
 
 [4]: https://github.com/OCB7D2D/OcbRemoteTurretControl
 [5]: https://www.nexusmods.com/7daystodie/mods/2279
+[6]: https://github.com/OCB7D2D/OcbElectricityButtonsPush
+[7]: https://www.nexusmods.com/7daystodie/mods/1741
 
 ### Download and Install
 
-Simply [download here from GitHub][1] and put into your A20 Mods folder:
+Simply [download here from GitHub][1] and put into your A21 Mods folder:
 
-- https://github.com/OCB7D2D/ElectricityHalfFencePost/releases
+- https://github.com/OCB7D2D/OcbElectricityHalfFencePost/releases (preferred method)
+- https://github.com/OCB7D2D/OcbElectricityHalfFencePost/archive/master.zip (master branch)
 
 ## Changelog
+
+### Version 0.4.1
+
+- Change mod folder to add OCB prefix
 
 ### Version 0.4.0
 
@@ -53,8 +62,8 @@ Simply [download here from GitHub][1] and put into your A20 Mods folder:
 
 ## Compatibility
 
-Developed initially for version A20.0(b5), updated through A21.0(b324).
+Developed initially for version A20.0(b5), updated through A21.2(b37).
 
-[1]: https://github.com/OCB7D2D/ElectricityHalfFencePost/releases
-[2]: https://github.com/OCB7D2D/ElectricityHalfFencePost/actions/workflows/ci.yml
-[3]: https://github.com/OCB7D2D/ElectricityHalfFencePost/actions/workflows/ci.yml/badge.svg
+[1]: https://github.com/OCB7D2D/OcbElectricityHalfFencePost/releases
+[2]: https://github.com/OCB7D2D/OcbElectricityHalfFencePost/actions/workflows/ci.yml
+[3]: https://github.com/OCB7D2D/OcbElectricityHalfFencePost/actions/workflows/ci.yml/badge.svg

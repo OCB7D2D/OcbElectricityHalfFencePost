@@ -1,6 +1,6 @@
 @echo off
 
-SET NAME=ElectricityHalfFencePost
+SET NAME=OcbElectricityHalfFencePost
 
 if not exist build\ (
   mkdir build
