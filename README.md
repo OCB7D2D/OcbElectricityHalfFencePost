@@ -44,6 +44,11 @@ Simply [download here from GitHub][1] and put into your A21 Mods folder:
 
 ## Changelog
 
+### Version 0.5.0
+
+- Fix material to allow glueing to walls
+- Still don't allow to staple fence posts
+
 ### Version 0.4.1
 
 - Change mod folder to add OCB prefix

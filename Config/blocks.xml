@@ -1,5 +1,6 @@
 <configs>
-	<set xpath="/blocks/block[@name='electricfencepost']/property[@name='Material']/@value">MmetalNoGlue</set>
+	<!-- let this block glue to other blocks (by not using a "noglue" material) -->
+	<set xpath="/blocks/block[@name='electricfencepost']/property[@name='Material']/@value">Mmetal_weak</set>
 
 	<set xpath="/blocks/block[@name='electricfencepost']/@name">electricfencepostlarge</set>
 
@@ -7,8 +8,12 @@
 		<!-- Just works if repective code is loaded -->
 		<!-- Some of my other mods enable this feature -->
 		<property name="ReturnVariantHelper" value="electricfencepost"/>
+		<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 		<property name="DescriptionKey" value="electricfencepostDesc"/>
 		<property name="CustomIcon" value="electricfencepost"/>
+		<property name="ImposterDontBlock" value="true"/>
+		<property name="WaterFlow" value="permitted"/>
+		<property name="HandleFace" value="Bottom"/>
 		<property name="CreativeMode" value="Dev"/>
 	</append>
 
@@ -20,7 +25,8 @@
 			<property name="ReturnVariantHelper" value="electricfencepost"/>
 			<property name="DescriptionKey" value="electricfencepostDesc"/>
 			<property name="CustomIcon" value="HalfFencePostMid"/>
-			<property name="StabilitySupport" value="true"/>
+			<!-- do not support to glue more stuff onto us -->
+			<property name="StabilitySupport" value="false"/>
 		</block>
 
 		<block name="electricfencepostsmall_low">
@@ -43,7 +49,6 @@
 			<property name="Model" value="Entities/Electrical/relayPrefab"/>
 			<property name="TintColor" value="FFF000"/>
 			<property name="CustomIcon" value="ShockWireRelay"/>
-			<property name="StabilitySupport" value="false"/>
 		</block>
 
 		<block name="electricfencepost">
