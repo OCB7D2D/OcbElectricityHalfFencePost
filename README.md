@@ -1,4 +1,4 @@
-# OCB Electricity Half Fence Post - 7 Days to Die (A21) Addon
+# OCB Electricity Half Fence Post - 7 Days to Die (V1.0 exp) Addon
 
 Small XML modlet adding a one block tall electric fence post with
 three version that differ in the height where the shock wire is
@@ -37,12 +37,17 @@ too, but I'm too lazy to keep an up to date list here ;-)
 
 ### Download and Install
 
-Simply [download here from GitHub][1] and put into your A21 Mods folder:
+End-Users are encouraged to download my mods from [NexusMods][4].  
+Every download there helps me to buy stuff for mod development.
 
-- https://github.com/OCB7D2D/OcbElectricityHalfFencePost/releases (preferred method)
-- https://github.com/OCB7D2D/OcbElectricityHalfFencePost/archive/master.zip (master branch)
+Otherwise please use one of the [official releases][1] here.  
+Only clone or download the repo if you know what you do!
 
 ## Changelog
+
+### Version 0.6.0
+
+- First compatibility with V1.0 (exp)
 
 ### Version 0.5.0
 
@@ -65,10 +70,7 @@ Simply [download here from GitHub][1] and put into your A21 Mods folder:
 
 - Initial working version
 
-## Compatibility
-
-Developed initially for version A20.0(b5), updated through A21.2(b37).
-
 [1]: https://github.com/OCB7D2D/OcbElectricityHalfFencePost/releases
 [2]: https://github.com/OCB7D2D/OcbElectricityHalfFencePost/actions/workflows/ci.yml
 [3]: https://github.com/OCB7D2D/OcbElectricityHalfFencePost/actions/workflows/ci.yml/badge.svg
+[4]: https://www.nexusmods.com/7daystodie/mods/2340

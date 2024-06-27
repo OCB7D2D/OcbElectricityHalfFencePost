@@ -1,4 +1,4 @@
-name: ElectricityHalfFencePost
+name: OcbElectricityHalfFencePost
 
 on:
   create:
@@ -22,7 +22,8 @@ jobs:
     - name: Call 7D2D compiler action
       uses: OCB7D2D/A20BepInExPreloader@master
       with:
-        name: "OcbParachute"
+        v7d2d: 'V1.0'
+        name: "OcbElectricityHalfFencePost"
         version: "${{ github.ref_name }}"
         token: "${{ secrets.GITHUB_TOKEN }}"
         OCBTOKEN: "${{ secrets.OCBTOKEN }}"
