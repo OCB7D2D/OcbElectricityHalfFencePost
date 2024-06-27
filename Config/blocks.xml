@@ -46,7 +46,7 @@
 		<block name="electricfencepostrelay">
 			<property name="CreativeMode" value="Dev"/>
 			<property name="Extends" value="electricfencepostsmall_mid" param1="Model"/>
-			<property name="Model" value="Entities/Electrical/relayPrefab"/>
+			<property name="Model" value="#@modfolder:Resources/FenceHalfPost.unity3d?ShockRelay"/>
 			<property name="TintColor" value="FFF000"/>
 			<property name="CustomIcon" value="ShockWireRelay"/>
 		</block>
