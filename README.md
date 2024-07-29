@@ -1,4 +1,4 @@
-# OCB Electricity Half Fence Post - 7 Days to Die (V1.0 exp) Addon
+# OCB Electricity Half Fence Post - 7 Days to Die (V1.0) Addon
 
 Small XML modlet adding a one block tall electric fence post with
 three version that differ in the height where the shock wire is
@@ -48,6 +48,7 @@ Only clone or download the repo if you know what you do!
 ### Version 0.6.0
 
 - First compatibility with V1.0 (exp)
+- Verified compatibility with V1 stable (b333)
 
 ### Version 0.5.0
 
